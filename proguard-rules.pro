@@ -1,0 +1,5 @@
+# Add project-specific ProGuard rules here.
+-keep class com.warrior.developer.** { *; }
+-keepattributes JavascriptInterface
+-keep public class * extends android.webkit.WebChromeClient
+-keep public class * extends android.webkit.WebViewClient
